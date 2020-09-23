@@ -1,0 +1,1349 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="597" scrolly="358.00000000000006" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="518.8454321583574" scrolly="282.16758871436286" scale="0.6935539619171466">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="D]fG*9;Uy-*e`Z|e_IS?" type="">state</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="kbX~Y%@=C5[d+@}_;3dB" x="-2110" y="-1510">
+      <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+      <value name="VALUE">
+        <block type="math_number" id="_)yR0yE%q*~Q+Fi:bQ`a">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=";c9fK2N8^xLK)Oxh38||" x="-2130" y="-1450">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id=".Zh,/P7tNgneg~)={zix">
+          <field name="TEXT">openFist</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="z42mvi,Bti~IjeX7RXg[">
+          <mutation elseif="4"/>
+          <value name="IF0">
+            <block type="logic_compare" id="@hu~|w|::ktMvxs7*BFW">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="U~gAwiq;]55l[z^1fVFU">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="?F~|p=2l=bt(O+Y0@,w3">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="KwqN+*b;49S38v)24a+4">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="O32F$o.~%(V|Vb7}B)S-">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="(!Jv`}f!3XH:_}V:npQP">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="PNWfqQX~?^B`Zg0$Z=*J">
+                  <field name="NUM">30</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="!xOhO6H{(%}YUy}Fvoz8">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="D`rh%.,%_!SE`_pd:(Xc">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="4fcx|YKQbg^M.(*v(5aE">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="X+NAyT-Va(p,}=:pB2=c">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="QD_:=l3,NAut@`X(OE!5">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="lwj+,J+0,HQB-D*MFk}}">
+                  <field name="NUM">2</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="40No^n9qtpOOk97Kr%]k">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="2(]=+VQ[BB8:ZDXu37.X">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="x,+7Ms0qU/b?uBeTG5*s">
+                  <field name="NUM">31</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="wDpGOtM],$G6-2YG$6Is">
+                  <field name="NUM">61</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="$4cXB?xk[}%a_;O(]uNg">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="vEt_g!h`;,xWQ=q4{$U[">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="G=tStB2aG6y6+/6UZ[U4">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_compare" id="Q,G]*h3$ug@DKA0P~S@(">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="ErpH9iho-wu4W=]DVANs">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="JRmqapC?ARfhEyFFYXf1">
+                  <field name="NUM">3</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="playAnimationAdv" id="Ya;TZg:EL},aap^P$KAp">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="Hwr_s`XD9{#7j7{3s48$">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="nA/:kjtWr$+BqSmIamlQ">
+                  <field name="NUM">62</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="b;E/Qm3me$g0dnwX*]7k">
+                  <field name="NUM">92</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="qI8GVh~{Ot5a/c~,r@V-">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="5)Auyeoump*n26WluU_0">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="6!=d-9ydUwFZe4c|v(zU">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF3">
+            <block type="logic_compare" id="P4-Pz+Y%_r+J%o9BVE~y">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="{rI?.rlPpF!qg|5gx3S$">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="0bl6Z~/0J;CRE}b2-sj~">
+                  <field name="NUM">4</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO3">
+            <block type="playAnimationAdv" id="{).r9H_/UH.cO/XI4nff">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="*Fb/fUudD5pM[ZcirUYG">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="AwA8HJEQR*THg*O#:.?w">
+                  <field name="NUM">93</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="qta;s8%/;$5LKOf=/to9">
+                  <field name="NUM">123</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="TJ#ZvL.t??x~[!F+`7(7">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="uCF]21_@v@wJc=?|lDyc">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="R]aFL_0k~/bg_GI~e$8h">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF4">
+            <block type="logic_compare" id="lgzaKg`{h:zSii36~A~M">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="_v2N+S:CgXi}tX1YR?D~">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="/Hl[tHW-0WrS6qurW{IQ">
+                  <field name="NUM">5</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO4">
+            <block type="playAnimationAdv" id="#;x}d%NNs4qI.diM34bj">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="R%TIgk3(cq-@R}B-K^:{">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="ZGJw/0fyqvb$@:[?=DEq">
+                  <field name="NUM">124</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="Znzk5-~{+6YW.DYi|lI/">
+                  <field name="NUM">154</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="}yX7u3tE{S[Cc]($+:/h">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="9}8ul|9bJ^d!-HO;a*S+">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="@H=I].RgGr`X2[gNrAa{">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="G]2/10BKe$!8j~YF.1go" x="-1230" y="-1450">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="LNa}Or8|Hp:HXUL,5jwF">
+          <field name="TEXT">closeFist</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="=agX`_u5iU:TV4D,Q1mk">
+          <mutation elseif="5"/>
+          <value name="IF0">
+            <block type="logic_compare" id="Rb5C:,IqQ%tUQRFq4.c]">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="mM7UtOuy,%;ESlp2h}C`">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id=".pF2cXA`p:PoL-,9MBZ=">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="W(A;UyCUulzGxNzsPjG4">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="3stHC{sniDx}!3(wrA#f">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="|Uu:xT6)m%_tyoonMVzT">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="JTy4BN;h{A-$wtA26O7b">
+                  <field name="NUM">30</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="mO.{hxl,O4X{72YPO=YC">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="`;lg}e{jWcBDdpfjPk!x">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="YT9%zUr[[gbN_XT=,BfY">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="dK^wQ-uivy-C@@HUOGU|">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="?X{RXVsb7Lck/!HnGXRX">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="]|llw!b4)_A0,XCZ{4*@">
+                  <field name="NUM">2</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="j*Z767gyLjd-lS_2;;G.">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id=")i[5y5qYWLf]Fv?vF4Q(">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="wKl0$(*l|=5@isn)r13n">
+                  <field name="NUM">279</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="}GlDAi]?VzD=Z!ChMUO}">
+                  <field name="NUM">309</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="2:cslo|)hOt-?eYwM=RS">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="u+o;Q10+A,ywa*Cg+A~~">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="37;)Kh=/J%;YVR~Yc~48">
+                      <field name="NUM">10</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_compare" id="9!VK;#39V5,hc(sgl02r">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="FioF;A[wKKc#sCO{f=1-">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="Ypa!k}B?ioZ@kxTVJcs5">
+                  <field name="NUM">6</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="playAnimationAdv" id="nV^|nhsLv243wQV(O6z|">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="*~$6|XLtnMKCy?@yCZu0">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="..kt#2W?.HCV+eDHo!=~">
+                  <field name="NUM">155</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="^r=^ZZFYug8k3:-I$/SD">
+                  <field name="NUM">185</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="aN?z_Jn.%%)`T-U(UzbH">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="F`1^l~=~BFEW(,e5TrF-">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="!Z!Wh~%PVs%,KMLg{[FV">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF3">
+            <block type="logic_compare" id="uelM9YIDPtou1by(}yYX">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="qku]baYB1a_^QIZidq5(">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="}ZW{^HK~-$e7.mSk%?dV">
+                  <field name="NUM">7</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO3">
+            <block type="playAnimationAdv" id="^B{D,3(D#+ulz(J0NkN(">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="@9]~Y+6mtZx(AnBE?X/5">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id=".hvi6s8^g8*ly*}%uI$3">
+                  <field name="NUM">186</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="!ry6G3N@31G5j=o-Q[{.">
+                  <field name="NUM">216</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="N8EB`1%,V]y7!D7kBrvN">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id=".~Ugkm28TY?T3Tu~=%of">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="IX%g1!}3c?CDlj(],`$x">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF4">
+            <block type="logic_compare" id="HYy`~7jivP{V%kvw={VU">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="ZxhfX0LA;.,04UygbC-3">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="+J-Hr]Z6_KU%8|(ikMHr">
+                  <field name="NUM">8</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO4">
+            <block type="playAnimationAdv" id="/5|rwUjZXJ00NWWDvRjr">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="sn_rq^Z/Zw0{tsK*f`^O">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="fRWN`@`~7zNZwlVXRt6H">
+                  <field name="NUM">217</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="|MgyG$7a}cW5jS5zPaGS">
+                  <field name="NUM">247</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="dtqK2B/py|,no6{WzA!d">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="]w]:qV85/(r]a3A()LO_">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="|O%=3RXyJYw$5vZ:54;)">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF5">
+            <block type="logic_compare" id="ar7p8)fx^:Pvgr1-8QM1">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="5GD6Jl],}/M7`w[Y`F]v">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="q#u|UOKa7K(a4iXt}n*P">
+                  <field name="NUM">9</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO5">
+            <block type="playAnimationAdv" id="*`d8L_S:YC8bZJ@k9nvE">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="M=u@begUN=q.R[A{xf|$">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="6=Y5id+tav8zh5$}|c`t">
+                  <field name="NUM">248</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="gPIeS?4SMVb[)xo6Xf8g">
+                  <field name="NUM">278</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="kTeld6y:W303+-?RTE);">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="Zg!tDk!bmZr^iE(5fA{i">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="dqq1wD(fnY9}B#W5q2]a">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="f)J:Z[G(%xC`f(PB!sq." x="-190" y="-1290">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="m1@2ppod#r#3mHLW)wp5">
+          <field name="TEXT">right</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="CBNH#6w|4,iD[HpEV|p_">
+          <mutation elseif="3"/>
+          <value name="IF0">
+            <block type="logic_compare" id="7lvCG~/l37@jQKri3$o|">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="jHgLJO4DY$P5OR{|!_jv">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="^s1M!YUfPQ*^$a%jih4|">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="|iF1oI|IjDPk9xHupa$z">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="yrOggieGPUZ1w?6Y}9!(">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="`SO]lN3|4zt}N7sahV?w">
+                  <field name="NUM">31</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="1lL@o4|k:`FSuccuO3?p">
+                  <field name="NUM">61</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="eP-mDrgTU((VVP4eeW54">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="D{#QucOs/n{T?VI)Q9KJ">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="F?AGg_d5ETOr(p)EK]o5">
+                      <field name="NUM">2</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="*hy`$I=Mb/?%HlHD?l?l">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="C%p0}9rJll2656%xwJoe">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="i5}N|y4xbME[^aQsKP/t">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="g`5#QV_q`B0XM#7uUe8a">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="/$qAL*p7+7b|(1zf_#s}">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="nk:%EVULY.fzw3{tK[;?">
+                  <field name="NUM">155</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="{N8(1N!yqfTVqrRHb72Z">
+                  <field name="NUM">185</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="9nm%qk4,rn89=$4E;X[C">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="Qtq4]H#6C{FhzI7%Rb!f">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="Q-*ktt;2rj[ytN;AOAzZ">
+                      <field name="NUM">6</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_compare" id="vyTwzaIBp{kMsl4Tg%y/">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="J}4xtlZkv!ZXHQG|RYw?">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="4$`[QtUvXujLu)bpryBy">
+                  <field name="NUM">10</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="playAnimationAdv" id="wR/VU~t$fg^pF|2w:G^o">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="mmbASuc(4hX|KHAUUeER">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="S-uWhp*%8-@|vOzZA#nJ">
+                  <field name="NUM">279</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="NY}Fm8wuY%7D`JZ1IYbB">
+                  <field name="NUM">309</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="x}7iX+,gQut_nzMO,bbg">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="D1)Z/V|xU.Eh$P7j5`p#">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="a51YOP-atB^42_!yW%WG">
+                      <field name="NUM">2</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF3">
+            <block type="logic_compare" id="0AR?Bl_(jI2uX30KmP0J">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="%!NDOOIfk[mM2aGE!1pM">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="WNlA6kBmwd3Dl-Fv|wPL">
+                  <field name="NUM">11</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO3">
+            <block type="playAnimationAdv" id="L{AKqs^]/z~$!N2u|y#!">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="qc|[?4STukjfs:u(DeXZ">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="Ljjo-nOie$E6{X+U{i#K">
+                  <field name="NUM">341</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="A5Q{9#CtS,7OK[D237)Z">
+                  <field name="NUM">371</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="CYa$,=s)5$L6cEEAruJ^">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="4(MnO.aDfCsr@_Crz_8o">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="Rm-pLap`YVcWa|4O54%I">
+                      <field name="NUM">2</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="skg}uFD8:VrY#nUGUVi1" x="-2130" y="-170">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="n|.WyA[,RzgJ.in*DtL,">
+          <field name="TEXT">left</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="#d|6c=1UJ(`jaA%:57JA">
+          <mutation elseif="2"/>
+          <value name="IF0">
+            <block type="logic_compare" id="vjuA|rzFXZ%-3E{/O8_+">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="JPwee=I}Gw59$)__xi8^">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="{%MrVk6DcoyYZ.d0_,uZ">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="``y2X6XLdhL0u;Q-ZNu~">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="!5qdh@Ys.DpqaIN/Y/Xa">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id=":D!LHVeUY;~+2KLD_dfz">
+                  <field name="NUM">62</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="dhF}?h_2H$*_W=^{8QKD">
+                  <field name="NUM">92</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="#=)$a.5({{Y5|.3VwWd{">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="s;K!Ef(f4PRxqc+n@+[1">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="Ceh{$neM2pE_?9LM92]J">
+                      <field name="NUM">3</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="EkN0`zvk4VXrX^.HfJE#">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="D}Ly~wJzr^!d7UySMD#L">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="6`u6l~yrN|:4c$z?S$cu">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="pMczhQkw)OcVDhP{Um^v">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="1^?jE;-V:mnVWe5;0iFK">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="vV=S[Q(=6xJP)GTPdv^j">
+                  <field name="NUM">186</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="N$5=cSB4g,2YNXo5Z~0o">
+                  <field name="NUM">216</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="a/F8E(=BzW1Q5j{^L;3M">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="H-4tK9{wP/r{FIuM)8L+">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="8;Y)l*i*q8TZuk@0U-9#">
+                      <field name="NUM">7</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_compare" id="Yz6V[SKGI-h/(hB.b]sf">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="YK-P,WX::u51A@({aDWm">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="sw+/j/;6e70Jn^siq:x$">
+                  <field name="NUM">2</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="playAnimationAdv" id="ryk-]W9iN2?;_aD8o/7%">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id=".uld#@:vu)(hTw*J4.BX">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="4TN=0N=ml5adLIoAx9nD">
+                  <field name="NUM">31</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="~1,Z(SEG`8md%hFp4=c5">
+                  <field name="NUM">61</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="5c#dUG.y,F=YH_zT~]e2">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="uV:-0#:=fbf4GTXDb1Cr">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="H[9vP(YXpcpIqKsXn;t,">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="_[VRO1d)-yHU[Tf9h7*c" x="-1130" y="-170">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="q}@-sY;+0YqC/LuwbNwo">
+          <field name="TEXT">extention</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="1zj(yI8hb;2Rr/},F`d*">
+          <mutation elseif="2"/>
+          <value name="IF0">
+            <block type="logic_compare" id="!^w4[{R8Ll{^CWNUaJq.">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="@9f+Bz7~_I~|DNgp?mOI">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="o?0+-Y=_}TGe/+7)jJ,r">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="ECi-d5(qjtK.d:h?)6d7">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="QW9Iu|!ld^hk?D$A/o(O">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="llCxyk|9dp}U}Yb#gg:J">
+                  <field name="NUM">93</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="C}eM6XJ1=/h]J5ZC~y=f">
+                  <field name="NUM">123</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="H1d?qbwb9KARki488EF)">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="8DDsNYl;iRnVJ_tE/{cU">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="Y5gJY{!kNBxQXb3m5UBY">
+                      <field name="NUM">4</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="Ox0o/Lbigd^.*bPr)jwN">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="+LDpty[s{?]`1m[~~HdX">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="[Zk3)eIrQrIt|xp^^1j+">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id=")*%CW~1!U+5`E~~9ni}s">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="r~k7KMD]1:,~*sXm|fof">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="l@gDq]NZ#2CdGhqcem/o">
+                  <field name="NUM">217</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="`QXU%-KhJ8|W6s/t~KcS">
+                  <field name="NUM">247</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="|Wi@{LW82t.`,y}2Escg">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="tKkx/0#gS6tZPa$%GL@*">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="P]f@(8/Di6e1iRLIKoO|">
+                      <field name="NUM">8</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_compare" id="O)jy=Y:i@s3B|=-3^gay">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id=";gOX_[;=)2%ua%.Gaw?t">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="~qgkJ8B2h9]phad.}g2(">
+                  <field name="NUM">2</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="playAnimationAdv" id="^7as1%8J/:cjoJ{o^Ew;">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="r59jq#7%PQiT7SlB;$nS">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="S#xuAJ66O)x#Zzih^E`E">
+                  <field name="NUM">341</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="u,KltJ:4x0J/R;um+3](">
+                  <field name="NUM">371</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="y$)H`yHW|5%M4hxaS5wG">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="$)n3ycgu,1u}^v62*W?=">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="0qp6(4:-u?7K?3ALfhgT">
+                      <field name="NUM">11</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Z63B#E0F3{ru~`}P4d8e" x="-150" y="-190">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <block type="text" id="V+I8@D0(Vm=NN:{ic?JN">
+          <field name="TEXT">flexion</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="controls_if" id="O[w/I|G@B5W3,mAHqh5Y">
+          <mutation elseif="2"/>
+          <value name="IF0">
+            <block type="logic_compare" id="%nSaO{?~kYJe!k%WT]DR">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="YL1ex|Z2Oyp~oL)St@gD">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="aK=Yv*soCKKy7Q2Jos}O">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id=")(`jCmTyWItMhv4zh2Fz">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="zDlVt,t1I*O[AVq8+OrG">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="Ta(rS`sWSyybH|I!_}7q">
+                  <field name="NUM">124</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="5_X$z?37pbqA}jxU{lS1">
+                  <field name="NUM">154</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="l1L`R0]r?hrW,aT/T_YG">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="q@F?^R;$}PrZZtxmt%M@">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="7Tj+WiQE+Cc(M6HyYEQ{">
+                      <field name="NUM">5</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_compare" id="szpo{IZk;5i]2yC|BxQH">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="Zy!%0Q]`=${NjAfBW74n">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="E8;~jY*cmCOtMqJVs^O4">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="playAnimationAdv" id="zjrm$Q8yMz9uG;*/RC@8">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="@D_94T{4=`n`JVOx/RQ]">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="CO,#yFA@~yHH`COZw+P(">
+                  <field name="NUM">248</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="_T4:UmAfIK(De`4[EIdy">
+                  <field name="NUM">278</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id=";[4Owj}$6$=5UH@XzJEV">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="xZl(of,~]hte5S$Fp2+!">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="qy@?,-Ua{/J!!JMxc5Iz">
+                      <field name="NUM">9</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_compare" id="c[Fv#fn+G}~pEcnRmoAt">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="wEbN^B;-*|($+G:I[{ln">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="2}433]9tE4Cb#acn+yaq">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="playAnimationAdv" id="Jv/eFx`wLLwpHA[SYf!x">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <block type="animationList" id="4?=_Q)Ta#RO/,u;b8{tr">
+                  <field name="FIELDNAME">Armature</field>
+                </block>
+              </value>
+              <value name="FROM">
+                <block type="math_number" id="A]2[Y7ivCKij$4k_=Gi(">
+                  <field name="NUM">310</field>
+                </block>
+              </value>
+              <value name="TO">
+                <block type="math_number" id="5/[+!{N.|;B,cMlb!_/5">
+                  <field name="NUM">340</field>
+                </block>
+              </value>
+              <value name="SPEED">
+                <block type="math_number" id="Bu1-vJ1:5Fh$imH@G-Cd">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="w+X^u$vDiR`a_bR(*ik{">
+                  <field name="VAR" id="D]fG*9;Uy-*e`Z|e_IS?">state</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="|[kA@:-mY6M]6$DGM+r_">
+                      <field name="NUM">12</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="396" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

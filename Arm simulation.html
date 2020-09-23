@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>Verge3D Web Interactive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- Search Engines -->
+  <meta name="description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Verge3D Web Interactive">
+  <meta name="twitter:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Verge3D Web Interactive">
+  <meta property="og:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <meta property="og:type" content="website">
+
+  <meta name="generator" content="Verge3D 3.4.0">
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+
+  
+  <script src="v3d.js"></script>
+  <script src="Arm simulation.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="Arm simulation.css">
+  <style>
+
+    .onTop {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:22px;
+	padding:13px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+  z-index:2;
+}
+.onTop:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.onTop:active {
+	position:relative;
+	top:1px;
+}
+  </style>
+</head>
+
+<body>
+  <div id="v3d-container">
+    <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+    <button class="onTop" id="closeFist" type="button">Close fist</button>
+    <button class="onTop" id="openFist" type="button">Open fist</button>
+    <button class="onTop" id="right" type="button">Ulnar Deviation</button>
+    <button class="onTop" id="left" type="button">Radial Deviation</button>
+    <button class="onTop" id="extention" type="button">Wrist Extention</button>
+    <button class="onTop" id="flexion" type="button">Wrist Flexion</button>
+  </div>
+</body>
+
+</html>
